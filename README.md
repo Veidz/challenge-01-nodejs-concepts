@@ -1,3 +1,3 @@
-# Challenge 01
+# Node.js Trail
 
-## Node.js Concepts
+### Challenge 01 - Node.js Concepts
