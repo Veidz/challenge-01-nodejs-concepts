@@ -31,8 +31,13 @@ app.post('/users', handleUserFields, (request, response) => {
     username,
     todos: []
   }
-  users.push(createdUser)
 
+  const userAlreadyExists = users.some((user) => user.username === username)
+  if (userAlreadyExists) {
+    return response.status(400).json({ error: 'User already exists' })
+  }
+
+  users.push(createdUser)
   return response.status(201).json(createdUser)
 });
 
