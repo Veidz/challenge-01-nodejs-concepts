@@ -7,7 +7,7 @@
 
 - [x] Deve ser possível criar um usuário
 - [] Deve ser possível buscar as tarefas do usuário
-- [] Deve ser possível criar uma tarefa
+- [x] Deve ser possível criar uma tarefa
 - [] Deve ser possível atualizar uma tarefa
 - [] Deve ser possível completar uma tarefa
 - [] Deve ser possível deletar uma tarefa
