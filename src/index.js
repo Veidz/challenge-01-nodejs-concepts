@@ -17,7 +17,7 @@ function checksExistsUserAccount(request, response, next) {
 function handleUserFields(request, response, next) {
   const { name, username } = request.body
   if (!name || !username) {
-    return response.status(400).json({ message: 'Invalid data provided' })
+    return response.status(400).json({ error: 'Invalid data provided' })
   }
   next()
 }
