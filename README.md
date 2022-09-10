@@ -5,7 +5,7 @@
 
 > Requisitos
 
-- [] Deve ser possível criar um usuário
+- [x] Deve ser possível criar um usuário
 - [] Deve ser possível buscar as tarefas do usuário
 - [] Deve ser possível criar uma tarefa
 - [] Deve ser possível atualizar uma tarefa
