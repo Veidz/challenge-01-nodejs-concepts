@@ -23,7 +23,6 @@ function handleUserFields(request, response, next) {
 }
 
 app.post('/users', handleUserFields, (request, response) => {
-  // Complete aqui
   const { name, username } = request.body
 
   const createdUser = {
@@ -33,7 +32,7 @@ app.post('/users', handleUserFields, (request, response) => {
     todos: []
   }
   users.push(createdUser)
-  console.log(users)
+
   return response.status(201).json(createdUser)
 });
 

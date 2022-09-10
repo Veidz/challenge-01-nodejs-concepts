@@ -16,7 +16,7 @@
 
 > Regras de negócio
 
-- [] Não deve ser possível cadastrar uma conta com id já existente
+- [x] Não deve ser possível cadastrar uma conta com dados inválidos
 - [] Não deve ser possível buscar as tarefas com um usuário inexistente
 - [] Não deve ser possível criar uma tarefa com um usuário inexistente
 - [] Não deve ser possível atualizar uma tarefa com um usuário inexistente
