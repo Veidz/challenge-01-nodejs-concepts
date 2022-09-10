@@ -11,7 +11,17 @@ app.use(express.json());
 const users = [];
 
 function checksExistsUserAccount(request, response, next) {
-  // Complete aqui
+  const { username } = request.headers
+  if (!username) {
+    return response.status(400).json({ error: 'No username provided' })
+  }
+
+  const userExists = users.some((user) => user.username === username)
+  if (!userExists) {
+    return response.status(404).json({ error: 'No user found' })
+  }
+
+  next()
 }
 
 function handleUserFields(request, response, next) {
