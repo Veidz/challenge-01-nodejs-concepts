@@ -52,7 +52,10 @@ app.post('/users', handleUserFields, (request, response) => {
 });
 
 app.get('/todos', checksExistsUserAccount, (request, response) => {
-  // Complete aqui
+  const { username } = request.headers
+
+  const { todos } = users.find((user) => user.username === username)
+  return response.status(200).json(todos)
 });
 
 app.post('/todos', checksExistsUserAccount, (request, response) => {
