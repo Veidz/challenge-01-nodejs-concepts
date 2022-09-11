@@ -6,11 +6,11 @@
 > Requisitos
 
 - [x] Deve ser possível criar um usuário
-- [] Deve ser possível buscar as tarefas do usuário
+- [x] Deve ser possível buscar as tarefas do usuário
 - [x] Deve ser possível criar uma tarefa
-- [] Deve ser possível atualizar uma tarefa
-- [] Deve ser possível completar uma tarefa
-- [] Deve ser possível deletar uma tarefa
+- [x] Deve ser possível atualizar uma tarefa
+- [x] Deve ser possível completar uma tarefa
+- [x] Deve ser possível deletar uma tarefa
   
 ---
 
